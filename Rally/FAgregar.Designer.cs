@@ -36,7 +36,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(40, 54);
+            label1.Location = new Point(12, 22);
             label1.Name = "label1";
             label1.Size = new Size(140, 15);
             label1.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // tbAgregarC
             // 
-            tbAgregarC.Location = new Point(186, 46);
+            tbAgregarC.Location = new Point(158, 19);
             tbAgregarC.Name = "tbAgregarC";
             tbAgregarC.Size = new Size(232, 23);
             tbAgregarC.TabIndex = 1;
@@ -52,9 +52,9 @@
             // btnAgregarC
             // 
             btnAgregarC.DialogResult = DialogResult.OK;
-            btnAgregarC.Location = new Point(170, 100);
+            btnAgregarC.Location = new Point(192, 48);
             btnAgregarC.Name = "btnAgregarC";
-            btnAgregarC.Size = new Size(75, 23);
+            btnAgregarC.Size = new Size(167, 36);
             btnAgregarC.TabIndex = 2;
             btnAgregarC.Text = "Agregar Competidor";
             btnAgregarC.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(439, 145);
+            ClientSize = new Size(439, 104);
             Controls.Add(btnAgregarC);
             Controls.Add(tbAgregarC);
             Controls.Add(label1);

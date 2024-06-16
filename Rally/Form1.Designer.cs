@@ -45,6 +45,7 @@
             // 
             // btnCargarTiempos
             // 
+            btnCargarTiempos.Enabled = false;
             btnCargarTiempos.Location = new Point(51, 78);
             btnCargarTiempos.Name = "btnCargarTiempos";
             btnCargarTiempos.Size = new Size(196, 23);

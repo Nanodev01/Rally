@@ -44,17 +44,19 @@
             // 
             // btnResultados
             // 
-            btnResultados.Location = new Point(135, 391);
+            btnResultados.DialogResult = DialogResult.OK;
+            btnResultados.Location = new Point(135, 384);
             btnResultados.Name = "btnResultados";
             btnResultados.Size = new Size(75, 23);
             btnResultados.TabIndex = 1;
-            btnResultados.Text = "Resultados";
+            btnResultados.Text = "Cerrar";
             btnResultados.UseVisualStyleBackColor = true;
+            btnResultados.Click += btnResultados_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(108, 10);
+            label1.Location = new Point(135, 9);
             label1.Name = "label1";
             label1.Size = new Size(75, 15);
             label1.TabIndex = 2;
@@ -62,9 +64,10 @@
             // 
             // FListar
             // 
+            AcceptButton = btnResultados;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(364, 450);
+            ClientSize = new Size(348, 419);
             Controls.Add(label1);
             Controls.Add(btnResultados);
             Controls.Add(lbResultados);

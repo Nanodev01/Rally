@@ -16,5 +16,10 @@ namespace Rally
         {
             InitializeComponent();
         }
+
+        private void btnResultados_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
